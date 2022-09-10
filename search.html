@@ -1,0 +1,120 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+        <link href="./search.css" rel="stylesheet">
+
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row heading">
+                Breakfast Places in Mumbai
+            </div>
+            <div class="row">
+                <div class="col-3 filterSection">
+                    <div class="sectionHeading">Filters</div>
+                    <div class="sectionSubHeading">Select Location</div>
+                    <select class="locationSelection">
+                        <option>Mumbai</option>
+                        <option>Delhi</option>
+                        <option>Bangalore</option>
+                        <option>Hyderabad</option>
+                    </select>
+                    <div class="sectionSubHeading">Cuisine</div>
+                    <div class="cuisineSelection"><input type="checkbox"> North Indian</div>
+                    <div class="cuisineSelection"><input type="checkbox"> South Indian</div>
+                    <div class="cuisineSelection"><input type="checkbox"> Chinese</div>
+                    <div class="cuisineSelection"><input type="checkbox"> Fast Food</div>
+                    <div class="cuisineSelection"><input type="checkbox"> Street Food</div>
+                    <div class="sectionSubHeading">Cost for two</div>
+                    <div class="cuisineSelection"><input type="radio" name="cost"> Less than &#8377; 500 </div>
+                    <div class="cuisineSelection"><input type="radio" name="cost"> &#8377; 500 to &#8377; 1000 </div>
+                    <div class="cuisineSelection"><input type="radio" name="cost"> &#8377; 1000 to &#8377; 1500 </div>
+                    <div class="cuisineSelection"><input type="radio" name="cost"> &#8377; 1500 to &#8377; 2000 </div>
+                    <div class="cuisineSelection"><input type="radio" name="cost"> &#8377; 2000+ </div>
+                    <div class="sectionSubHeading">Sort</div>
+                    <div class="cuisineSelection"><input type="radio" name="sort"> Price low to high </div>
+                    <div class="cuisineSelection"><input type="radio" name="sort"> Price high to low </div>
+                </div>
+                <div class="col-9 resultSection">
+                    <div class="row resultBox">
+                        <div class="topSection row">
+                            <div class="col-2">
+                                <img class="resultImage" src="./Images/food.jpg">
+                            </div>
+                            <div class="col-10">
+                                <div class="resultHeader">The Big Chill Cakery</div>
+                                <div class="resultSubHeader">FORT</div>
+                                <div class="resultDescription">Shop 1, Plot D, Samruddhi Complex, Chincholi …</div>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="bottomSection row">
+                            <div class="col-2">
+                                <div class="resultdetils">
+                                    CUISINES:
+                                </div>
+                                <div class="resultdetils">
+                                    COST FOR TWO:
+                                </div>
+                            </div>
+                            <div class="col-10">
+                                <div class="resultdetilsOptions">
+                                    Bakery
+                                </div>
+                                <div class="resultdetilsOptions">
+                                    &#8377; 700
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row resultBox">
+                        <div class="topSection row">
+                            <div class="col-2">
+                                <img class="resultImage" src="./Images/breakfast.jpg">
+                            </div>
+                            <div class="col-10">
+                                <div class="resultHeader">The Bake Shop</div>
+                                <div class="resultSubHeader">FORT</div>
+                                <div class="resultDescription">Shop 1, Plot D, Samruddhi Complex, Chincholi …</div>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="bottomSection row">
+                            <div class="col-2">
+                                <div class="resultdetils">
+                                    CUISINES:
+                                </div>
+                                <div class="resultdetils">
+                                    COST FOR TWO:
+                                </div>
+                            </div>
+                            <div class="col-10">
+                                <div class="resultdetilsOptions">
+                                    Bakery
+                                </div>
+                                <div class="resultdetilsOptions">
+                                    &#8377; 700
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="paginationOptions">
+                        <span class="paginationButton"><</span>
+                        <span class="paginationButton">1</span>
+                        <span class="paginationButton">2</span>
+                        <span class="paginationButton">3</span>
+                        <span class="paginationButton">4</span>
+                        <span class="paginationButton">5</span>
+                        <span class="paginationButton">></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
